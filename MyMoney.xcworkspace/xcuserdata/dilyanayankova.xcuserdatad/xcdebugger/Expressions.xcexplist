@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ShoresViewController.collectionView(_:cellForItemAt:):ShoresViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shores">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FetchDataViewController.fetchStocks(symbol:):FetchDataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shores">
+            </PersistentString>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ShoresViewController.viewDidLoad():ShoresViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shores">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LaunchViewController.hideShow():LaunchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gold">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FetchDataViewController.fetchCrypto():FetchDataViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ShoresViewController.creatShore(symbol:amount:):ShoresViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shores">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CurrencyViewController.collectionView(_:numberOfItemsInSection:):CurrencyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currencies.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CryptoViewController.createCrypto(symbol:amount:price:total:):CryptoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cryptos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomViewController.addNewRecord():CustomViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FetchDataViewController.calculateTotal(list:key:):FetchDataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "c.total">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FetchDataViewController.fetchCurrencies(symbol:):FetchDataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currencies">
+            </PersistentString>
+            <PersistentString
+               value = " (Double) priceUSD">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CryptoViewController.setTotal(priceUSD:amount:):CryptoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "amount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FetchDataViewController.calculateTotal():FetchDataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cryptos">
+            </PersistentString>
+            <PersistentString
+               value = "c.total">
+            </PersistentString>
+            <PersistentString
+               value = "currenciesTotal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LaunchViewController.viewDidLoad():LaunchViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allTotal">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CurrencyViewController.viewDidLoad():CurrencyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currencies">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GoldViewController.viewDidLoad():GoldViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FetchDataViewController.calculateAll():FetchDataViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gold">
+            </PersistentString>
+            <PersistentString
+               value = "shoresTotal + currenciesTotal + currenciesTotal">
+            </PersistentString>
+            <PersistentString
+               value = "allTotal">
+            </PersistentString>
+            <PersistentString
+               value = "shores">
+            </PersistentString>
+            <PersistentString
+               value = "gold.total">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CryptoViewController.viewDidLoad():CryptoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cryptos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
