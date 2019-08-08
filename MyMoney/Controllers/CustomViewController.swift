@@ -42,7 +42,7 @@ class CustomViewController:  FetchDataViewController {
         textView.textColor = .gray
         textView.layer.cornerRadius = 4
         textView.layer.borderWidth = 1
-        textView.keyboardType = .numberPad
+        textView.keyboardType = .decimalPad
         textView.translatesAutoresizingMaskIntoConstraints = false
         return textView
     }()
@@ -168,7 +168,7 @@ class CustomViewController:  FetchDataViewController {
         
         amountTextLabel.topAnchor.constraint(equalTo: addTextView.topAnchor, constant: 60).isActive = true
         amountTextLabel.leftAnchor.constraint(equalTo: nameLabel.rightAnchor, constant: 10).isActive = true
-        amountTextLabel.widthAnchor.constraint(equalToConstant: 60).isActive = true
+        amountTextLabel.widthAnchor.constraint(equalToConstant: 80).isActive = true
         amountTextLabel.heightAnchor.constraint(equalToConstant: 30).isActive = true
         
         singlePriceLabel.topAnchor.constraint(equalTo: addTextView.topAnchor, constant: 60).isActive = true
@@ -187,7 +187,7 @@ class CustomViewController:  FetchDataViewController {
     }
     
     @objc  func chechIfaddNewRecord(){
-        if addTextView.text.elementsEqual("") || addAmountTextView.text.elementsEqual(""){
+        if addTextView.text.elementsEqual("") || addAmountTextView.text.elementsEqual("") {
             notOkLabel.isHidden = false
             amountLabel.isHidden = true
             symbolLabel.isHidden = true

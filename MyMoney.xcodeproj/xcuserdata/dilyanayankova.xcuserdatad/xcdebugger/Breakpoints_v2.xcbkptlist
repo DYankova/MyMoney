@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/LaunchViewController.swift"
-            timestampString = "585742395.555889"
+            timestampString = "586966630.370568"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
             landmarkName = "designButton(btn:title:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/LaunchViewController.swift"
-            timestampString = "585742395.556265"
+            timestampString = "586966630.370959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "designButton(btn:title:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,23 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.251955"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
-            landmarkName = "calculateTotal(list:key:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.2520061"
+            timestampString = "586957004.228029"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
@@ -74,11 +58,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.252051"
+            timestampString = "586957004.2281049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "calculateTotal(list:key:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoney/Controllers/FetchDataViewController.swift"
+            timestampString = "586957004.2281621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "fetchCurrCrypGold(symbol:key:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,23 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.252094"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "fetchCurrCrypGold(symbol:key:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.2521369"
+            timestampString = "586957004.228215"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
@@ -122,7 +106,39 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.25218"
+            timestampString = "586957004.228266"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "fetchCurrCrypGold(symbol:key:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoney/Controllers/FetchDataViewController.swift"
+            timestampString = "586957004.228315"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setTotal(amount:price:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoney/Controllers/FetchDataViewController.swift"
+            timestampString = "586957004.228364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -138,27 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.2522219"
+            timestampString = "586957004.228412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "setTotal(amount:price:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.252264"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "fetchCurrCrypGold(symbol:key:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,13 +170,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMoney/Controllers/FetchDataViewController.swift"
-            timestampString = "585742199.252308"
+            timestampString = "586957004.228461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
             endingLineNumber = "26"
             landmarkName = "setTotal(amount:price:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMoney/Controllers/LaunchViewController.swift"
+            timestampString = "586966689.477185"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "LaunchViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

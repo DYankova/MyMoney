@@ -31,6 +31,11 @@ class LaunchViewController: FetchDataViewController, UIScrollViewDelegate {
         return label
     }()
     
+    let totalEurTextLbl: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
     let cryptoLbl: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -99,6 +104,7 @@ class LaunchViewController: FetchDataViewController, UIScrollViewDelegate {
         view.addSubview(titleLbl)
         view.addSubview(totalBtn)
         view.addSubview(totalTextLbl)
+        view.addSubview(totalEurTextLbl)
 
         view.addSubview(cryptoLbl)
         view.addSubview(cryptoBtn)
@@ -127,12 +133,17 @@ class LaunchViewController: FetchDataViewController, UIScrollViewDelegate {
         totalBtn.widthAnchor.constraint(equalToConstant: 150).isActive = true
         totalBtn.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
-        totalTextLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 35).isActive = true
+        totalTextLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         totalTextLbl.topAnchor.constraint(equalTo: totalBtn.bottomAnchor, constant: 7).isActive = true
         totalTextLbl.widthAnchor.constraint(equalToConstant: 150).isActive = true
         totalTextLbl.heightAnchor.constraint(equalToConstant: 20).isActive = true
-    
-        addConstr(title: cryptoLbl, button: cryptoBtn, topAnchor: totalTextLbl.topAnchor)
+        
+        totalEurTextLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        totalEurTextLbl.topAnchor.constraint(equalTo: totalTextLbl.bottomAnchor, constant: 7).isActive = true
+        totalEurTextLbl.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        totalEurTextLbl.heightAnchor.constraint(equalToConstant: 20).isActive = true
+        
+        addConstr(title: cryptoLbl, button: cryptoBtn, topAnchor: totalEurTextLbl.topAnchor)
         addConstr(title: stockLbl,  button: stocksBtn, topAnchor: cryptoBtn.topAnchor)
         addConstr(title: goldLbl,  button: goldBtn, topAnchor: stocksBtn.topAnchor)
         addConstr(title: currencyLbl,  button: currencyBtn, topAnchor: goldBtn.topAnchor)
@@ -166,12 +177,16 @@ class LaunchViewController: FetchDataViewController, UIScrollViewDelegate {
         }
         self.present(nextViewController, animated: true, completion: nil)
     }
- 
     
     @objc func hideShowTotal(){
         let allTotal = calculateAll()
-        totalTextLbl.text = String(format: "%.5f", allTotal)
+        let allEur = allTotal * 0.893056486
+        totalTextLbl.text = "USD : " + String(format: "%.8f", allTotal)
         totalTextLbl.isHidden = !totalTextLbl.isHidden
+        
+        totalEurTextLbl.text = "EUR : " + String(format: "%.8f", allEur)
+        totalEurTextLbl.isHidden = !totalEurTextLbl.isHidden
+        
         cryptoLbl.isHidden = !cryptoLbl.isHidden
         stockLbl.isHidden = !stockLbl.isHidden
         goldLbl.isHidden = !goldLbl.isHidden

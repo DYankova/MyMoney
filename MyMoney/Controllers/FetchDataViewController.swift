@@ -24,10 +24,12 @@ class FetchDataViewController: UIViewController {
     
     func setTotal(amount: String, price: String) -> Double {
         guard !amount.isEmpty && !price.isEmpty else {return 0}
-            let amountD = Double(amount)
+        let amountStr = amount.replacingOccurrences(of: ",", with: ".", options: .literal, range: nil)
+        if let amountD = Double(amountStr){
         let priceD = Double(price) ?? 0
-        let total: Double = amountD! * priceD
+        let total: Double = amountD * priceD
         return total
+        } else {return 0}
     }
     
     func fetchStocks(symbol: String){
